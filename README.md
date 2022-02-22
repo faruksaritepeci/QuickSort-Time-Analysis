@@ -2,12 +2,12 @@
 QuickSort implementation and time tests
 
 # Usage: 
-./executable <numberOfItemsToSort> <[randomized | deterministic]> <inputPath> <outputPath>
+./executable \<numberOfItemsToSort> \<[randomized | deterministic]> \<inputPath> \<outputPath>
 
 eg.: ./main.exe 1000 randomized tweets_unsorted.csv tweets_sorted_1000.csv
 
 # What it does?
-Sorts the first <numberOfItemsToSort> tweets in the inputFile according to
+Sorts the first \<numberOfItemsToSort> tweets in the inputFile according to
 - country (case insensitive alphabetical order), if countries match:
 - artist name (case insensitive alphabetical order), if artist names also match:
 - tweet_unixtime (ascending order)
