@@ -11,6 +11,7 @@ Sorts the first \<numberOfItemsToSort> tweets in the inputFile according to
 - country (case insensitive alphabetical order), if countries match:
 - artist name (case insensitive alphabetical order), if artist names also match:
 - tweet_unixtime (ascending order)
+Then, prints to the output file in the sorted order
 
 # Parameters
 - numberOfItemsToSort : Specify how many tweets you want to sort
